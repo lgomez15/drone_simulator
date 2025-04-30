@@ -1,9 +1,4 @@
 # Drone Simulator Web
-# Drone Simulator Web
-# Drone Simulator Web
-
-```markdown
-# Drone Simulator Web
 
 Una aplicación web interactiva que simula el comportamiento de drones en diferentes ubicaciones. Utiliza FastAPI, WebSocket y archivos estáticos (HTML/JS/CSS) para mostrar en tiempo real la simulación. Incluye un script para probar el WebSocket desde consola.
 
@@ -150,9 +145,4 @@ pip install websockets
 
 ## 👨‍💻 Autor
 
-Osprean Software Development Team
-
-```
-
----
-
+Osprean
