@@ -1,0 +1,3 @@
+develop/simulador_dron/requirements.txtPyQt5
+numpy
+haversine
