@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Simulador de Dron Web</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Dron</h1>
+        <div class="controls">
+            <select id="location-select">
+                <option value="madrid">Madrid</option>
+                <option value="munich">Múnich</option>
+                <option value="tenerife">Tenerife</option>
+            </select>
+            <button id="start-btn">Iniciar Simulación</button>
+            <button id="stop-btn" disabled>Detener Simulación</button>
+        </div>
+        <div id="telemetry"></div>
+        <canvas id="drone-map" width="400" height="400"></canvas>
+        <textarea id="log" readonly rows="10" cols="80"></textarea>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
